@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "worldheight512",
+  "version": "${version}",
+  "name": "512 World Height",
+  "description": "Makes worlds 512 blocks high!",
+  "authors": [
+    "YTG1234"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/worldheight512/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.ytg1234.world_height.WorldHeight512"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "worldheight512.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6"
+  }
+}
